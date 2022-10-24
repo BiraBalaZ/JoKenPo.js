@@ -5,7 +5,6 @@ res1 = document.getElementById('res1');
 p = document.getElementById('num'); //Player
 
 function jokenpo() {
-
     b = Math.floor(Math.random() * 2); //Bot
 
     if (b == 0 && p.value == 1) {
